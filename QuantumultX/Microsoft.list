@@ -604,7 +604,5 @@ DOMAIN-SUFFIX,yammer.com,Microsoft
 DOMAIN-SUFFIX,yammerusercontent.com,Microsoft
 DOMAIN,oneclient.sfx.ms,Microsoft
 DOMAIN,teams.events.data.microsoft.com,Microsoft
-PROCESS-NAME,OneDrive,Microsoft
-PROCESS-NAME,OneDriveUpdater,Microsoft
 USER-AGENT,OneDrive*,Microsoft
 USER-AGENT,OneDriveiOSApp*,Microsoft

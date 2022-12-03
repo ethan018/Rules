@@ -32,22 +32,6 @@ DOMAIN-KEYWORD,yunpan,DIRECT
 DOMAIN-SUFFIX,qbittorrent.org,DIRECT
 DOMAIN-SUFFIX,smtp,DIRECT
 DOMAIN-SUFFIX,xunlei.com,DIRECT
-PROCESS-NAME,APlayer,DIRECT
-PROCESS-NAME,aria2c,DIRECT
-PROCESS-NAME,baidunetdisk,DIRECT
-PROCESS-NAME,bitcomet,DIRECT
-PROCESS-NAME,DownloadSDKServer,DIRECT
-PROCESS-NAME,DownloadService,DIRECT
-PROCESS-NAME,fdm,DIRECT
-PROCESS-NAME,Folx,DIRECT
-PROCESS-NAME,NetTransport,DIRECT
-PROCESS-NAME,qbittorrent,DIRECT
-PROCESS-NAME,Thunder,DIRECT
-PROCESS-NAME,Transmission,DIRECT
-PROCESS-NAME,uTorrent,DIRECT
-PROCESS-NAME,WebTorrent,DIRECT
-PROCESS-NAME,WebTorrent Helper,DIRECT
-PROCESS-NAME,Weiyun,DIRECT
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
 URL-REGEX,(Subject|HELO|SMTP),DIRECT
