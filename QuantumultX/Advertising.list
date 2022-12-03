@@ -7,7 +7,6 @@
 # > 删除 mfm.video.qq.com #腾讯视频弹幕
 # > 2022.11.25
 
-AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29)),REJECT
 DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
