@@ -1,0 +1,59 @@
+# > Apple Non-CDN
+# > 2022.11.25
+
+# Apple Non-China CDN
+# ## Developer
+DOMAIN,docs-assets.developer.apple.com
+# ## OCSP
+USER-AGENT,com.apple.trustd*
+# ## Spotlight
+DOMAIN,api.smoot.apple.com
+DOMAIN,api.smoot.apple.cn
+# ## Hotspot captive
+DOMAIN,captive.apple.com
+# ## Asset Cache Locator Service
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+# ## Caching Server Registration
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+# ## iMessage
+DOMAIN-SUFFIX,ess.apple.com
+# ## iTunes Stream
+DOMAIN-SUFFIX,beta.music.apple.com
+DOMAIN-SUFFIX,buy.itunes.apple.com
+DOMAIN-SUFFIX,hls.itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
+DOMAIN-SUFFIX,sonos-music.apple.com
+DOMAIN-SUFFIX,ld-8.itunes.apple.com
+DOMAIN-SUFFIX,books.itunes.apple.com
+DOMAIN-SUFFIX,radio.itunes.apple.com
+DOMAIN-SUFFIX,sandbox.itunes.apple.com
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+DOMAIN-SUFFIX,p10-buy.itunes.apple.com
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+DOMAIN-SUFFIX,speedysub.itunes.apple.com
+DOMAIN-SUFFIX,partiality.itunes.apple.com
+DOMAIN-SUFFIX,musicstatus.itunes.apple.com
+DOMAIN-SUFFIX,radio-activity.itunes.apple.com
+DOMAIN-SUFFIX,apptrailers-ssl.itunes.apple.com
+# ## Others
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,humb.apple.com
+DOMAIN-SUFFIX,tbsc.apple.com
+DOMAIN-SUFFIX,sse-ws.apple.com
+DOMAIN-SUFFIX,friend.gc.apple.com
+DOMAIN-SUFFIX,mobileapp.apple.com
+DOMAIN-SUFFIX,rtlimages.apple.com
+DOMAIN-SUFFIX,profile.gc.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,sse-ws-p189.apple.com
+DOMAIN-SUFFIX,asa.commerce.apple.com
+DOMAIN-SUFFIX,securemetrics.apple.com
+DOMAIN-SUFFIX,petropluvialis.apple.com
+DOMAIN-SUFFIX,supportmetrics.apple.com
+DOMAIN-SUFFIX,usw2as.mobileapp.apple.com
+DOMAIN-SUFFIX,iphonesubmissions.apple.com
+DOMAIN-SUFFIX,config-chr.health.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net

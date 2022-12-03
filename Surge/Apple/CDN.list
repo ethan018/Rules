@@ -1,0 +1,107 @@
+# > Apple CDN
+# > 2022.11.25
+
+# Apple Global CDN
+# ## iCloud
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com.cn
+DOMAIN-SUFFIX,cdn-apple.com
+# ## Weather
+USER-AGENT,*WeatherFoundation*
+DOMAIN,weather-data.apple.com
+# ## Settings
+USER-AGENT,%E8%AE%BE%E7%BD%AE*
+USER-AGENT,FindMyFriends*
+USER-AGENT,FindMyiPhone*
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,fmflocatord*
+USER-AGENT,*com.apple.mobileme.fmip1
+# ## iOS App Store
+DOMAIN,iosapps.itunes.apple.com
+USER-AGENT,com.apple.appstored*
+# ## Mac App Store
+DOMAIN,osxapps.itunes.apple.com
+DOMAIN,oscdn.apple.com
+# ## Update
+DOMAIN,supportdownload.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,apptrailers.itunes.apple.com
+# ## App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,store.apple.com
+# ## Apple Wallet
+DOMAIN,sh-pod3-smp-device.apple.com
+DOMAIN,pancake.apple.com
+# ## Developer
+DOMAIN,devimages-cdn.apple.com
+DOMAIN,devstreaming-cdn.apple.com
+DOMAIN,download.developer.apple.com
+# ## OCSP
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp2.apple.com
+# ## Apple Pay
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
+# ## Reserve
+DOMAIN,reserve-prime.apple.com
+# ## Push
+DOMAIN-KEYWORD,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+# ## Configuration
+DOMAIN,configuration.apple.com
+# ## Apple Music Streaming
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,se.itunes.apple.com
+DOMAIN,pd.itunes.apple.com
+DOMAIN,su.itunes.apple.com
+DOMAIN,sp.itunes.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,upp.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,cma.itunes.apple.com
+DOMAIN,se2.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,sync.itunes.apple.com
+DOMAIN,init.itunes.apple.com
+DOMAIN,search.itunes.apple.com
+DOMAIN,se-edge.itunes.apple.com
+DOMAIN,amd-infra.itunes.apple.com
+DOMAIN,inappcheck.itunes.apple.com
+DOMAIN,mzstorekit.itunes.apple.com
+DOMAIN,client-api.itunes.apple.com
+DOMAIN,finance-app.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+# ## Other
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN,tv.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,ipcdn.apple.com
+DOMAIN,books.apple.com
+DOMAIN,valid.apple.com
+DOMAIN,cl2-cn.apple.com
+DOMAIN,cl4-cn.apple.com
+DOMAIN,swallow.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,support.apple.com
+DOMAIN,init.gc.apple.com
+DOMAIN,iphone-ld.apple.com
+DOMAIN,gs-loc-cn.apple.com
+DOMAIN,fides-pol.apple.com
+DOMAIN,cdsassets.apple.com
+DOMAIN,static.gc.apple.com
+DOMAIN,init-p01md.apple.com
+DOMAIN,amp-api.media.apple.com
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,weather-analytics-events.apple.com
