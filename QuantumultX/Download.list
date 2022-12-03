@@ -32,7 +32,4 @@ DOMAIN-KEYWORD,yunpan,DIRECT
 DOMAIN-SUFFIX,qbittorrent.org,DIRECT
 DOMAIN-SUFFIX,smtp,DIRECT
 DOMAIN-SUFFIX,xunlei.com,DIRECT
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
-URL-REGEX,(Subject|HELO|SMTP),DIRECT
 USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
