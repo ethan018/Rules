@@ -1,0 +1,59 @@
+# > Apple Non-CDN
+# > 2022.11.25
+
+# Apple Non-China CDN
+# ## Developer
+DOMAIN,docs-assets.developer.apple.com,PROXY
+# ## OCSP
+USER-AGENT,com.apple.trustd*,PROXY
+# ## Spotlight
+DOMAIN,api.smoot.apple.com,PROXY
+DOMAIN,api.smoot.apple.cn,PROXY
+# ## Hotspot captive
+DOMAIN,captive.apple.com,PROXY
+# ## Asset Cache Locator Service
+DOMAIN-SUFFIX,lcdn-locator.apple.com,PROXY
+# ## Caching Server Registration
+DOMAIN-SUFFIX,lcdn-registration.apple.com,PROXY
+# ## iMessage
+DOMAIN-SUFFIX,ess.apple.com,PROXY
+# ## iTunes Stream
+DOMAIN-SUFFIX,beta.music.apple.com,PROXY
+DOMAIN-SUFFIX,buy.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,hls.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,lookup-api.apple.com,PROXY
+DOMAIN-SUFFIX,sonos-music.apple.com,PROXY
+DOMAIN-SUFFIX,ld-8.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,books.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,radio.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,sandbox.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,p10-buy.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,speedysub.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,partiality.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,musicstatus.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,radio-activity.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,apptrailers-ssl.itunes.apple.com,PROXY
+# ## Others
+DOMAIN-SUFFIX,appsto.re,PROXY
+DOMAIN-SUFFIX,aaplimg.com,PROXY
+DOMAIN-SUFFIX,apple-dns.net,PROXY
+DOMAIN-SUFFIX,gdmf.apple.com,PROXY
+DOMAIN-SUFFIX,humb.apple.com,PROXY
+DOMAIN-SUFFIX,tbsc.apple.com,PROXY
+DOMAIN-SUFFIX,sse-ws.apple.com,PROXY
+DOMAIN-SUFFIX,friend.gc.apple.com,PROXY
+DOMAIN-SUFFIX,mobileapp.apple.com,PROXY
+DOMAIN-SUFFIX,rtlimages.apple.com,PROXY
+DOMAIN-SUFFIX,profile.gc.apple.com,PROXY
+DOMAIN-SUFFIX,testflight.apple.com,PROXY
+DOMAIN-SUFFIX,sse-ws-p189.apple.com,PROXY
+DOMAIN-SUFFIX,asa.commerce.apple.com,PROXY
+DOMAIN-SUFFIX,securemetrics.apple.com,PROXY
+DOMAIN-SUFFIX,petropluvialis.apple.com,PROXY
+DOMAIN-SUFFIX,supportmetrics.apple.com,PROXY
+DOMAIN-SUFFIX,usw2as.mobileapp.apple.com,PROXY
+DOMAIN-SUFFIX,iphonesubmissions.apple.com,PROXY
+DOMAIN-SUFFIX,config-chr.health.apple.com,PROXY
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,PROXY

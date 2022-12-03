@@ -1,0 +1,107 @@
+# > Apple CDN
+# > 2022.11.25
+
+# Apple Global CDN
+# ## iCloud
+DOMAIN-SUFFIX,icloud.com.cn,CDN
+DOMAIN-SUFFIX,icloud-content.com.cn,CDN
+DOMAIN-SUFFIX,cdn-apple.com,CDN
+# ## Weather
+USER-AGENT,*WeatherFoundation*,CDN
+DOMAIN,weather-data.apple.com,CDN
+# ## Settings
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,CDN
+USER-AGENT,FindMyFriends*,CDN
+USER-AGENT,FindMyiPhone*,CDN
+USER-AGENT,FMDClient*,CDN
+USER-AGENT,FMFD*,CDN
+USER-AGENT,fmflocatord*,CDN
+USER-AGENT,*com.apple.mobileme.fmip1,CDN
+# ## iOS App Store
+DOMAIN,iosapps.itunes.apple.com,CDN
+USER-AGENT,com.apple.appstored*,CDN
+# ## Mac App Store
+DOMAIN,osxapps.itunes.apple.com,CDN
+DOMAIN,oscdn.apple.com,CDN
+# ## Update
+DOMAIN,supportdownload.apple.com,CDN
+DOMAIN,appldnld.apple.com,CDN
+DOMAIN,swcdn.apple.com,CDN
+DOMAIN,apptrailers.itunes.apple.com,CDN
+# ## App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com,CDN
+DOMAIN-SUFFIX,store.apple.com,CDN
+# ## Apple Wallet
+DOMAIN,sh-pod3-smp-device.apple.com,CDN
+DOMAIN,pancake.apple.com,CDN
+# ## Developer
+DOMAIN,devimages-cdn.apple.com,CDN
+DOMAIN,devstreaming-cdn.apple.com,CDN
+DOMAIN,download.developer.apple.com,CDN
+# ## OCSP
+DOMAIN-SUFFIX,ocsp.apple.com,CDN
+DOMAIN-SUFFIX,ocsp2.apple.com,CDN
+# ## Apple Pay
+DOMAIN,smp-device-content.apple.com,CDN
+DOMAIN-KEYWORD,smp-device,CDN
+USER-AGENT,passd*,CDN
+USER-AGENT,Wallet*,CDN
+# ## Reserve
+DOMAIN,reserve-prime.apple.com,CDN
+# ## Push
+DOMAIN-KEYWORD,push-apple.com.akadns.net,CDN
+DOMAIN-SUFFIX,push.apple.com.akadns.net,CDN
+DOMAIN-SUFFIX,push.apple.com,CDN
+# ## Configuration
+DOMAIN,configuration.apple.com,CDN
+# ## Apple Music Streaming
+DOMAIN-SUFFIX,itunes.com,CDN
+DOMAIN-SUFFIX,music.apple.com,CDN
+DOMAIN,itunes.apple.com,CDN
+DOMAIN,se.itunes.apple.com,CDN
+DOMAIN,pd.itunes.apple.com,CDN
+DOMAIN,su.itunes.apple.com,CDN
+DOMAIN,sp.itunes.apple.com,CDN
+DOMAIN,bag.itunes.apple.com,CDN
+DOMAIN,upp.itunes.apple.com,CDN
+DOMAIN,aod.itunes.apple.com,CDN
+DOMAIN,cma.itunes.apple.com,CDN
+DOMAIN,se2.itunes.apple.com,CDN
+DOMAIN,mvod.itunes.apple.com,CDN
+DOMAIN,play.itunes.apple.com,CDN
+DOMAIN,sync.itunes.apple.com,CDN
+DOMAIN,init.itunes.apple.com,CDN
+DOMAIN,search.itunes.apple.com,CDN
+DOMAIN,se-edge.itunes.apple.com,CDN
+DOMAIN,amd-infra.itunes.apple.com,CDN
+DOMAIN,inappcheck.itunes.apple.com,CDN
+DOMAIN,mzstorekit.itunes.apple.com,CDN
+DOMAIN,client-api.itunes.apple.com,CDN
+DOMAIN,finance-app.itunes.apple.com,CDN
+DOMAIN,streamingaudio.itunes.apple.com,CDN
+DOMAIN,downloaddispatch.itunes.apple.com,CDN
+DOMAIN,sf-api-token-service.itunes.apple.com,CDN
+# ## Other
+DOMAIN-SUFFIX,apple.co,CDN
+DOMAIN-SUFFIX,apps.apple.com,CDN
+DOMAIN,tv.apple.com,CDN
+DOMAIN,xp.apple.com,CDN
+DOMAIN,mesu.apple.com,CDN
+DOMAIN,ipcdn.apple.com,CDN
+DOMAIN,books.apple.com,CDN
+DOMAIN,valid.apple.com,CDN
+DOMAIN,cl2-cn.apple.com,CDN
+DOMAIN,cl4-cn.apple.com,CDN
+DOMAIN,swallow.apple.com,CDN
+DOMAIN,guzzoni.apple.com,CDN
+DOMAIN,support.apple.com,CDN
+DOMAIN,init.gc.apple.com,CDN
+DOMAIN,iphone-ld.apple.com,CDN
+DOMAIN,gs-loc-cn.apple.com,CDN
+DOMAIN,fides-pol.apple.com,CDN
+DOMAIN,cdsassets.apple.com,CDN
+DOMAIN,static.gc.apple.com,CDN
+DOMAIN,init-p01md.apple.com,CDN
+DOMAIN,amp-api.media.apple.com,CDN
+DOMAIN,amp-api.podcasts.apple.com,CDN
+DOMAIN,weather-analytics-events.apple.com,CDN

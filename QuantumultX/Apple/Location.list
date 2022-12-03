@@ -1,0 +1,18 @@
+# > Apple Location
+# > 2022.11.25
+
+# ## Maps
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,Location
+# ## Settings
+USER-AGENT,com.apple.geod*,Location
+USER-AGENT,com.apple.Maps,Location
+USER-AGENT,geod*,Location
+USER-AGENT,locationd*,Location
+USER-AGENT,Maps*,Location
+# ## locationd
+DOMAIN-SUFFIX,gsa.apple.com,Location
+DOMAIN-SUFFIX,gsas.apple.com,Location
+DOMAIN,gs-loc.apple.com,Location
+DOMAIN-SUFFIX,ls.apple.com.akadns.net,Location
+DOMAIN-SUFFIX,ls.apple.com.edgesuite.net,Location
+DOMAIN-SUFFIX,ls.apple.com,Location
