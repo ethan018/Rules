@@ -2,42 +2,45 @@ version: "3"
 
 services:
   teslamate:
-    image: teslamate/teslamate:latest
+    image: dhuar/teslamate:latest
     restart: always
     environment:
-      - ENCRYPTION_KEY=teslamateTokens
+      - ENCRYPTION_KEY=teslamate
       - DATABASE_USER=teslamate
       - DATABASE_PASS=teslamate
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
       - MQTT_HOST=mosquitto
-    ports:
-      - 4000:4000
+      - TZ=CN
+        #ports:
+        #  - 4001:4000
     volumes:
       - ./import:/opt/app/import
     cap_drop:
       - all
 
   database:
-    image: postgres:15
+    image: postgres:15.4
     restart: always
     environment:
       - POSTGRES_USER=teslamate
       - POSTGRES_PASSWORD=teslamate
       - POSTGRES_DB=teslamate
+    ports:
+      - 5432:5432 
     volumes:
       - teslamate-db:/var/lib/postgresql/data
-
   grafana:
-    image: ccr.ccs.tencentyun.com/lei-wei/grafana-tesla-cn:v1.3
+    image: dhuar/grafana:latest
     restart: always
     environment:
       - DATABASE_USER=teslamate
       - DATABASE_PASS=teslamate
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
-    ports:
-      - 3000:3000
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+        #ports:
+        #  - 3001:3000
     volumes:
       - teslamate-grafana-data:/var/lib/grafana
 
