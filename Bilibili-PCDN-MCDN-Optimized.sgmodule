@@ -1,0 +1,34 @@
+#!name=Bilibili PCDN/MCDN 优化
+#!desc=拦截 Bilibili PCDN/MCDN，并在播放地址响应中优先使用官方 backup CDN，减少因 REJECT-DROP 导致的 3-5 秒首播等待。
+#!system=macOS
+#!category=影音
+#!homepage=https://www.bilibili.com/
+
+
+[Body Rewrite]
+# B站播放地址接口：发现 baseUrl/base_url 为 MCDN 时，提升第一个非 MCDN backupUrl 为主地址。
+http-response-jq ^https?://(?:api\.bilibili\.com/x/player/(?:wbi/)?playurl(?:v2)?|api\.bilibili\.com/pgc/player/web/playurl(?:v2)?|interface\.bilibili\.com/v2/playurl)(?:\?|$) 'def is_mcdn:
+  test("(^|[./])mcdn\\.bilivideo\\.cn(?::[0-9]+)?(/|$)"; "i");
+
+def fix:
+  (.backupUrl // .backup_url // []) as $b |
+  if ((.baseUrl // .base_url // .url // "") | is_mcdn) then
+    ($b | map(select((. | is_mcdn) | not))) as $g |
+    if ($g | length) > 0 then
+      (if has("baseUrl") then .baseUrl = $g[0] else . end) |
+      (if has("base_url") then .base_url = $g[0] else . end) |
+      (if has("url") and ((.url // "") | is_mcdn) then .url = $g[0] else . end) |
+      (if has("backupUrl") then .backupUrl = $g else . end) |
+      (if has("backup_url") then .backup_url = $g else . end)
+    else . end
+  else . end;
+
+if .data?.dash? then
+  (if .data.dash.video? then .data.dash.video |= map(fix) else . end) |
+  (if .data.dash.audio? then .data.dash.audio |= map(fix) else . end) |
+  (if .data.dash.dolby?.audio? then .data.dash.dolby.audio |= map(fix) else . end) |
+  (if .data.dash.flac?.audio? then .data.dash.flac.audio |= map(fix) else . end)
+else . end'
+
+[MITM]
+hostname = %APPEND% api.bilibili.com, interface.bilibili.com
